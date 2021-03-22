@@ -5,19 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "test" : "jest"
+    "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "next": "10.0.9",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "babel-jest": "^26.6.3",
-    "jest": "^26.6.3"
-  },
+  "devDependencies": {},
   "license": "MIT"
 }
