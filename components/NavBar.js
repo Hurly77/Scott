@@ -4,11 +4,19 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import {makeStyles} from '@material-ui/core/styles'
+
+const useStyles = makeStyles ({
+  root: {
+    backgroundColor: '#34727d'
+  }
+})
 
 const NavBar = () => {
+  const classes = useStyles()
   return (
     <div>
-      <AppBar position="static" size='lg'>
+      <AppBar position="static" size='lg' className={classes.root}>
         <Toolbar>
           <IconButton edge="start" aria-label="menu">
             <MenuIcon />
