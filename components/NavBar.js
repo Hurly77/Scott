@@ -8,10 +8,10 @@ import {makeStyles} from '@material-ui/core/styles'
 
 const useStyles = makeStyles ({
   root: {
-    backgroundColor: '#34727d'
-  }
+    backgroundColor: '#2eacab',
+    height: '100px'
+  } 
 })
-
 const NavBar = () => {
   const classes = useStyles()
   return (
@@ -22,9 +22,8 @@ const NavBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">
-            News
+            Home
           </Typography>
-          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </div>
